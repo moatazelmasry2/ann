@@ -6,7 +6,7 @@ public abstract class AbstractSOM {
 
     protected double learnDelta = 0.4;
     protected List<Vector2D> trainingSet = null;
-
+    //comment
     protected double gauss(SOMPoint source, SOMPoint destination) {
         double norm = source.getCenter().minus(destination.getCenter()).norm();
         double sigma = destination.getSigma();
